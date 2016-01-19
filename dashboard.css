@@ -1,0 +1,151 @@
+/*
+ * Base structure
+ */
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  background-color: #f3f5f9;
+}
+
+
+/*
+ * Global add-ons
+ */
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.breadcrumb { padding-left: 0; }
+.required { color: #a94442; }
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+.navbar { background-color: #f7714d;  }
+.navbar a.navbar-brand { color: #fbfbfb; }
+.navbar ul.navbar-nav li ul a { color: #575757; }
+.navbar ul.navbar-nav li.open { background-color: #8ec35f!important; }
+.navbar ul.navbar-nav a{ color: #fbfbfb; font-size: 12px; }
+form.navbar-form > input { font-size: 12px;}
+
+@media (max-width: 1000px) {
+  #navbar span.liname { display:none; }
+  #navbar form.navbar-form { display:none; }
+}
+  
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.sidebar { background-color: #363130; }
+.sidebar a { color: #bdb8d7; border-left: 2px solid #363130; }
+.sidebar li.active > a { font-weight: bold; }
+.sidebar li.active > a, 
+  .sidebar a:hover, 
+    .sidebar li.active a:hover { 
+      background-color: #433d3c !important;
+      border-left: 2px solid #f7714d;
+    }
+.sidebar li .nameli, .sidebar li .nameli:hover { display: none; }
+.sidebar li .badge { float: right; background-color: #433d3c; }
+
+/*
+ * Main content
+ */
+.main {
+  padding: 20px;
+  background-color: #f3f5f9;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.main #content { font-size: 13px; }
+.main #content input, .main #content select, .main #content textarea { font-size: 12px; }
+
+.panel {
+  background-color: white;
+}
+.panel-footer ul li a {
+  padding: 7px 8px;
+  color: #575757;
+}
+.panel-head-acces {
+  background-color: #594f8d;
+  color: white;
+  margin-bottom: 17px;
+}
+.panel-head-acces .panel-heading i {
+  font-size:50px;
+}
+.panel-head-acces .panel-footer{ 
+  background-color: white;
+  font-size:12px;
+  border: 1px solid #594f8d;
+  color: #594f8d;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+.small { font-size: 10px; }
+.big { font-size: 15px; }
+
+

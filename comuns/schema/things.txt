@@ -1,0 +1,8 @@
+// isset() antes que empty() o is_array(),
+// ++$i(primero incrementa luego usa) antes que $i++(primero usa luego incrementa)
+// explode() antes que split()
+// mt_rand() antes que rand()
+// Usa siempre que puedas las comillas simples ya que a diferencia de las dobles, que interpolan los valores de las variables, estas solo interpretan literales
+//switch / case usan mas ciclos de procesador que los if / else
+// unset para eliminar variables
+// include, require y sus derivados (include_once, require_once) son sentencias, no métodos. No debe ponerse la ruta al fichero entre paréntesis.

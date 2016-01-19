@@ -1,0 +1,29 @@
+# Activar RewriteEngine
+RewriteEngine on
+
+# Reescribir la URL solicitada por el usuario
+
+# indiquem ruta, arxiu i quatre paràmetres
+Options +FollowSymLinks
+RewriteRule ^(.+)/do-(.+)/(.+)-(.+)/(.+)-(.+)/(.+)-(.+)/(.+)-(.+)/$ www/$1/$2.php?$3=$4&$5=$6&$7=$8&$9=$10 [L,NC]
+
+RewriteRule ^(.+)/do-(.+)/(.+)-(.+)/(.+)-(.+)/(.+)-(.+)/(.+)-(.+) www/$1/index.php [L]
+
+
+# indiquem ruta, arxiu i tres paràmetres
+RewriteRule ^(.+)/do-(.+)/(.+)-(.+)/(.+)-(.+)/(.+)-(.+)/$ www/$1/$2.php?$3=$4&$5=$6&$7=$8 [L]
+
+# indiquem ruta, arxiu i dos paràmetres
+RewriteRule ^(.+)/do-(.+)/(.+)-(.+)/(.+)-(.+)/$ www/$1/$2.php?$3=$4&$5=$6 [L]
+
+# indiquem ruta, arxiu i un paràmetre
+RewriteRule ^(.+)/do-(.+)/(.+)-(.+)/$ www/$1/$2.php?$3=$4 [L]
+
+# indiquem ruta i arxiu
+RewriteRule ^(.+)/do-(.+)/$ www/$1/$2.php [L]
+
+ErrorDocument 400     /400.html
+ErrorDocument 401     /401.html
+ErrorDocument 403     /403.html
+ErrorDocument 404     /404.html
+ErrorDocument 500     /500.html

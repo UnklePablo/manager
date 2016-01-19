@@ -1,0 +1,641 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Clickedu - Chile\n"
+"Report-Msgid-Bugs-To: fxescarmis@clickartweb.com\n"
+"POT-Creation-Date: 2014-07-29 15:13+0200\n"
+"PO-Revision-Date: 2014-09-18 13:00+0100\n"
+"Last-Translator: Clickedu <fxescarmis@clickartweb.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ESO"
+msgstr "Educación Media"
+
+msgid "curso"
+msgstr "nivel"
+
+msgid "curso actual"
+msgstr "nivel actual"
+
+msgid "Curso Id"
+msgstr "Nivel Id"
+
+msgid "Cursos"
+msgstr "Niveles"
+
+msgid "cursos"
+msgstr "niveles"
+
+msgid " Cursos"
+msgstr "Niveles"
+
+msgid "Cursos Moodle"
+msgstr "Niveles Moodle"
+
+msgid "Clase"
+msgstr "Curso"
+
+msgid "Todas las clases"
+msgstr "Todos los cursos"
+
+msgid "Clases"
+msgstr "Cursos"
+
+msgid "no tiene clase"
+msgstr "no tiene curso"
+
+msgid "Clase Actual del Alumno"
+msgstr "Curso Actual del Alumno"
+
+msgid "agrupar por classes"
+msgstr "agrupar por cursos"
+
+msgid "Para seleccionar alumnos primero hay que escoger una classe. Después puedes hacer click en cada alumno que desees seleccionar, o bién puedes hacer una selección múltiple si mantienes pulsado el botón del ratón"
+msgstr "Para seleccionar alumnos primero hay que escoger un curso. Después puedes hacer click en cada alumno que desees seleccionar, o bien puedes hacer una selección múltiple si mantienes pulsado el botón del ratón"
+
+msgid "asignación de un alumno a una clase <em>(funcionamiento natural de ClickEDU)</em>"
+msgstr "asignación de un alumno a un curso <em>(funcionamiento natural de ClickEDU)</em>"
+
+msgid "alumno clase"
+msgstr "alumno curso"
+
+msgid "alumno curso"
+msgstr "alumno nivel"
+
+msgid "alumnos asignados a más de una clase."
+msgstr "alumnos asignados a más de un curso."
+
+msgid "alumnos asignados a más de una clase. Si a estos alumnos se les asigna un mismo concepto para diferentes cursos, sólo se les cobrará el concepto una vez"
+msgstr "alumnos asignados a más de un curso. Si a estos alumnos se les asigna un mismo concepto para diferentes niveles, sólo se les cobrará el concepto una vez"
+
+msgid "clase"
+msgstr "clase"
+
+msgid "clase/grupo"
+msgstr "curso/grupo"
+
+msgid "Clases, evaluaciones y asignaturas"
+msgstr "Cursos, evaluaciones y asignaturas"
+
+msgid "Fechas de inicio y de fin de las clases"
+msgstr "Fechas de inicio y de fin de los cursos"
+
+msgid "dar de alta un curso 'alumno clase' implica asignarlo a una clase y evaluarlo según el funcionamiento natural de ClickEDU, según evaluaciones, cierres y materias"
+msgstr "dar de alta un nivel 'alumno curso' implica asignarlo a una curso y evaluarlo según el funcionamiento natural de ClickEDU, según evaluaciones, cierres y materias"
+
+msgid "dar de alta un curso 'alumno curso' implica asignarlo automáticamente a un curso específico, indicándole qué materias cursará"
+msgstr "dar de alta un nivel 'alumno nivel' implica asignarlo automáticamente a un nivel especí­fico, indicándole quA© materias cursará"
+
+msgid "filtrar por clases"
+msgstr "filtrar por cursos"
+
+msgid "listado_clases_"
+msgstr "listado_cursos_"
+
+msgid "Nombre de la clase"
+msgstr "Nombre del curso"
+
+msgid "nombre del tutor de la clase "
+msgstr "nombre del jefe de curso del curso"
+
+msgid "NombreClase"
+msgstr "NombreCurso"
+
+msgid "Número total de alumnos por clase"
+msgstr "Número total de alumnos por curso"
+
+msgid "ordenar por clase y alumno"
+msgstr "ordenar por curso y alumno"
+
+msgid "Alumnos de las siguientes clases tienen conceptos asignados de cursos que no son el suyo."
+msgstr "Alumnos de los siguientes cursos tienen conceptos asignados de niveles que no son el suyo."
+
+msgid "Para poder ver la información académica de este alumno, es requerido primero escoger la clase"
+msgstr "Para poder ver la información acadA©mica de este alumno, es requerido primero escoger el curso"
+
+msgid "sin clase"
+msgstr "sin curso"
+
+msgid "por favor, primero escoge un curso escolar y una classe"
+msgstr "por favor, primero escoge un curso escolar y un curso"
+
+msgid "media de notas del alumno y la clase"
+msgstr "media de notas del alumno y el curso"
+
+msgid "Asignaciones de alumno a clases"
+msgstr "Asignaciones de alumno a cursos"
+
+msgid "clase(s)</strong> para este curso escolar"
+msgstr "curso(s)</strong> para este curso escolar"
+
+msgid "<li>Un alumno puede estar asignado a una o más clases por cada curso escolar.</li>"
+"<li>Un alumno <strong>repetidor</strong> está asignado a una clase el mismo curso escolar anterior. Se tienen que escoger las materias que repite y asignarle los grupos que le correspondan. Un <strong>alumno que es repite todas las materias</strong> se le asignaran todas las materias administradas a la clase y se le tendrá que asignar manualmente los grupos específicos que tenga que cursar.</li>"
+"<li>Un alumno <strong>oyente</strong> cursa y se lista en todas las materias de la clase asignada, pero no requiere evaluarlo.</li>"
+"<li>En Bachillerato y Ciclos Formativos se requiere escoger una <strong>modalidad</strong> que cursa un alumno. Modificar la modalidad para un alumno en concreto no implica ningún cambio de materias de forma automática: tendrá que ser asignado a una nueva clase y grupos para que curse las nuevas materias de modalidad que le pertoque..</li>"
+"<li><strong class=Gran>IMPORTANTE:</strong> Recordar que modificar laasignación de grupos y materias implica la pérdida de datos de este alumno en la materia correspondiente.</li>"
+msgstr "<li>Un alumno puede estar asignado a uno o más cursos por cada curso escolar.</li>"
+
+msgid "sumario"
+msgstr "resumen"
+
+msgid "Tutor/a (firma)"
+msgstr "Jefe curso (firma)"
+
+msgid "Firma del tutor o de la tutora"
+msgstr "Firma del jefe de curso"
+
+msgid "Asignación de tutores a los alumnos"
+msgstr "Asignación de jefes de curso a los alumnos"
+
+msgid "tutor/a o cargo"
+msgstr "jefe curso o cargo"
+
+msgid "tutores disponibles"
+msgstr "jefes cursos disponibles"
+
+msgid "Comentarios tutor/a o cargo"
+msgstr "Comentarios jefe de curso"
+
+msgid "Conversaciones tutor"
+msgstr "Conversaciones del jefe de curso"
+
+msgid "El/La Tutor/a"
+msgstr "El Jefe de Curso"
+
+msgid "horarios de entrevista del tutor"
+msgstr "horarios de entrevista del jefe de curso"
+
+msgid "Nombre del tutor"
+msgstr "Nombre del jefe de curso"
+
+msgid "tutor/a"
+msgstr "jefe de curso"
+
+msgid "Tutor/a"
+msgstr "Jefe de curso"
+
+msgid "tutoría"
+msgstr "trabajo de curso"
+
+msgid "no tiene ninguna tutoría asignada"
+msgstr "no tiene ningún trabajo de curso asignado"
+
+msgid "lectivas y no lectivas dedicadas a la tutoría de las enseñanzas que corresponda"
+msgstr "lectivas y no lectivas dedicadas al trabajo de curso de las enseñanzas que corresponda"
+
+msgid "Generar dos copias de los boletines para los diferentes responsables"
+msgstr "Generar para los distintos apoderados"
+
+msgid "El envio del boletín ha sido correcto para los siguientes responsables:"
+msgstr "El envio del boletí­n ha sido correcto para los siguientes apoderados:"
+
+msgid "El envio del boletín ha fallado para los siguientes responsables:"
+msgstr "El envio del boletín ha fallado para los siguientes apoderados:"
+
+msgid "Responsables"
+msgstr "Apoderados"
+
+msgid "Nombre y apellidos del responsable"
+msgstr "Nombre y apellidos del apoderado"
+
+msgid "primer responsable"
+msgstr "primer apoderado"
+
+msgid "provincias de nacimiento de los responsables"
+msgstr "provincias de nacimiento de los apoderados"
+
+msgid "requerido si no se han escogido responsables"
+msgstr "requerido si no se han escogido apoderados"
+
+msgid "responsable"
+msgstr "apoderado"
+
+msgid "responsable de"
+msgstr "apoderado de"
+
+msgid "responsables asistentes"
+msgstr "apoderados asistentes"
+
+msgid "segundo responsable"
+msgstr "segundo apoderado"
+
+msgid "Todos los responsables de los alumnos del curso escolar actual"
+msgstr "Todos los apoderados de los alumnos del curso escolar actual"
+
+msgid "usuario responsable"
+msgstr "usuario apoderado"
+
+msgid "coincidencia de los dos responsables"
+msgstr "coincidencia de los dos apoderados"
+
+msgid "coincidencia de un responsable"
+msgstr "coincidencia de un apoderado"
+
+msgid "1r Responsable"
+msgstr "1r Apoderado"
+
+msgid "2o Responsable"
+msgstr "2o Apoderado"
+
+msgid "añadir responsable"
+msgstr "añadir apoderado"
+
+msgid "Permitir a los alumnos mayores de edad realizar las mismas operaciones que los responsables."
+msgstr "Permitir a los alumnos mayores de edad realizar las mismas operaciones que los apoderados."
+
+msgid "Cambio del orden de los responsables"
+msgstr "Cambio del orden de los apoderados"
+
+msgid "Coincidencia dels dos responsables, hermano mayor"
+msgstr "Coincidencia dels dos responsables, hermano grande"
+
+msgid "Coincidencia dels dos responsables, hermano pequeno"
+msgstr "Coincidencia dels dos apoderados, hermano pequeno"
+
+msgid "Coincidencia de un responsable, hermano mayor"
+msgstr "Coincidencia de un responsable, hermano grande"
+
+msgid "Coincidencia de un responsable, hermano pequeno"
+msgstr "Coincidencia de un apoderado, hermano pequeno"
+
+msgid "coincidencia de <strong>[[NUM]]</strong> responsable/s"
+msgstr "coincidencia de <strong>[[NUM]]</strong> apoderado/s"
+
+msgid "Seguro que quieres cambiar el orden de los responsables?"
+msgstr "Seguro que quieres cambiar el orden de los apoderados?"
+
+msgid "contrasena responsable"
+msgstr "contrasena apoderado"
+
+msgid "datos responsables preinscrito"
+msgstr "datos apoderados preinscrito"
+
+msgid "responsables y hermanos"
+msgstr "apoderados y hermanos"
+
+msgid "listado_responsables_"
+msgstr "listado_apoderados_"
+
+msgid "visible para los responsables"
+msgstr "visible para los apoderados"
+
+msgid "El envio de la contraseña y el usuario ha fallado para los siguientes responsables:"
+msgstr "El envio de la contraseña y el usuario ha fallado para los siguientes apoderados:"
+
+msgid "socio AMPA"
+msgstr "socio Centro de Padres y apoderados (con presidente/a)"
+
+msgid "Socios AMPA"
+msgstr "Socios Centro de Padres y apoderados (con presidente/a)"
+
+msgid "comentario en junta de evaluación"
+msgstr "comentario en UTP"
+
+msgid "NOTA: La junta de evaluación puede modificar la calificación de los créditos, la cual cosa se expresará con un astertisco (*), y se hará constar la expresión: *Recalificado por la junta de evaluación."
+"Para los créditos y módulos que se han convalidados se hará constar la expresión 'CO' y para los excemptos 'XM'."
+msgstr "NOTA: La UTP puede modificar la calificación de los créditos, la cual cosa se expresará con un astertisco (*), y se hará constar la expresión: *Recalificado por la UTP. Para los créditos y módulos que se han convalidados se hará constar la expresión 'CO' y para los excemptos 'XM'."
+
+msgid "El formato del DNI es incorrecto"
+msgstr "El formato del RUN es incorrecto"
+
+msgid "Indicar el número de DNI o pasaporte"
+msgstr "Indicar el número de RUN o pasaporte"
+
+msgid "Que [nom_alumne] con DNI/NIE o Pasaporte [dni_alumne] se ha presentado a las pruebas para la obtención del Título  de Graduado en Educación Secundaria Obligatoria reguladas por la Resolución 2 de diciembre de 2009, que se han llevado a término en este centro en fecha [data_proves] y ha obtenido las calificaciones siguientes: "
+msgstr "Que [nom_alumne] con RUN/NIE o Pasaporte [RUN_alumne] se ha presentado a las pruebas para la obtención del Título  de Graduado en Educación Secundaria Obligatoria reguladas por la Resolución 2 de diciembre de 2009, que se han llevado a término en este centro en fecha [data_proves] y ha obtenido las calificaciones siguientes:"
+
+msgid "Don/Doña [NOM_TUTOR] como tutor/tutora del curso [NOM_CURS] - grupo [GRUP]<br /><br />"
+"HAGO CONSTAR que el alumno/a [NOM], con DNI [NIF], código XADE [XADE] y fecha de nacimiento [DATA_NAIX], cursa durante el presente año académico [CURS_ESCOLAR] los estudios correspondientes a [NOM_CURS] con régimen [REGIM] y la modalidad de [MODALITAT], con los resultados parciales que seguidamente se detallan:"
+msgstr "Don/Doña [NOM_TUTOR] como tutor/tutora del curso [NOM_CURS] - grupo [GRUP]<br /><br />\n"
+"HAGO CONSTAR que el alumno/a [NOM], con RUN [NIF], código XADE [XADE] y fecha de nacimiento [DATA_NAIX], cursa durante el presente año académico [CURS_ESCOLAR] los estudios correspondientes a [NOM_CURS] con régimen [REGIM] y la modalidad de [MODALITAT], con los resultados parciales que seguidamente se detallan:"
+
+msgid "Don/Doña [NOM_TUTOR] como tutor/tutora del curso [NOM_CURS] - grupo [GRUP]<br /><br />"
+"HAGO CONSTAR que el alumno/a [NOM], con DNI [NIF], código XADE [XADE] y fecha de nacimiento [DATA_NAIX], cursa durante el presente año académico [CURS_ESCOLAR] los estudios correspondientes a [NOM_CURS], con los resultados parciales que seguidamente se detallan:"
+msgstr "Don/Doña [NOM_TUTOR] como tutor/tutora del curso [NOM_CURS] - grupo [GRUP]<br /><br />\n"
+"HAGO CONSTAR que el alumno/a [NOM], con RUN [NIF], código XADE [XADE] y fecha de nacimiento [DATA_NAIX], cursa durante el presente año académico [CURS_ESCOLAR] los estudios correspondientes a [NOM_CURS], con los resultados parciales que seguidamente se detallan:"
+
+msgid "El/la alumno/a [NOM_COGNOMS] con DNI [DNI] obtuvo en [CURS] por el régimen de [REGIM] en la modalidad de [MODALITAT] las siguientes calificaciones"
+msgstr "El/la alumno/a [NOM_COGNOMS] con RUN [RUN] obtuvo en [CURS] por el régimen de [REGIM] en la modalidad de [MODALITAT] las siguientes calificaciones"
+
+msgid "Don/Doña [NOM_TUTOR] como tutor/tutora del curso [NOM_CURS] - grupo [GRUP]<br />"
+"HAGO CONSTAR que la alumna/o alumno [NOM], con DNI [NIF], código XADE [XADE] y con fecha de nacimiento [DATA_NAIX], cursó/cursa durante el año académico [CURS_ESCOLAR] los estudios correspondientes a [NOM_CURS], con los resultados parciales que figuran en el cuadro que se adjunta."
+msgstr "Don/Doña [NOM_TUTOR] como tutor/tutora del curso [NOM_CURS] - grupo [GRUP]<br />\n"
+"HAGO CONSTAR que la alumna/o alumno [NOM], con RUN [NIF], código XADE [XADE] y con fecha de nacimiento [DATA_NAIX], cursó/cursa durante el año académico [CURS_ESCOLAR] los estudios correspondientes a [NOM_CURS], con los resultados parciales que figuran en el cuadro que se adjunta."
+
+msgid "Código de población de nac."
+msgstr "Código de comuna de nac."
+
+msgid "nombre colegio y población"
+msgstr "nombre colegio y comuna"
+
+msgid "Población"
+msgstr "comuna"
+
+msgid "población de nacimiento"
+msgstr "comuna de nacimiento"
+
+msgid "poblaciones"
+msgstr "comunas"
+
+msgid "población de residencia"
+msgstr "comuna de residencia"
+
+msgid "con DNI/NIE/Pasaporte"
+msgstr "con RUN/Pasaporte"
+
+msgid "Primaria"
+msgstr "EGB"
+
+msgid "Nombre clase"
+msgstr "Nombre del curso"
+
+msgid "Conversaciones del tutor"
+msgstr "Conversaciones del jefe de curso"
+
+msgid "Coincidència de los dos responsables, hermano mayor"
+msgstr "Coincidencia de los dos responsables, hermano grande"
+
+msgid "Coincidència de los dos responsables, hermano menor"
+msgstr "Coincidencia dels dos apoderados, hermano pequeno"
+
+msgid "Socio del AMPA"
+msgstr "Socio del Centro de Padres y apoderados (con presidente/a)"
+
+msgid "Socio AMPA"
+msgstr "Socio Centro de Padres y apoderados (con presidente/a)"
+
+msgid "Comentario en junta de evaluación"
+msgstr "Comentario en UTP"
+
+msgid "Fecha de constitución de la junta de evaluación"
+msgstr "Fecha de constitución de la UTP"
+
+msgid "Las materias marcadas con * se han aprobado por la junta de evaluación."
+msgstr "Las materias marcadas con * se han aprobado por la UTP."
+
+msgid "Se indican con un asterisco * las nuevas calificaciones otorgadas por la junta de evaluación."
+msgstr "Se indican con un asterisco * las nuevas calificaciones otorgadas por la UTP."
+
+msgid "La junta de evaluación final, reunida el [str_data], ha decidido que "
+msgstr "La UTP final, reunida el [str_data], ha decidido que "
+
+msgid "DNI Incorrecto"
+msgstr "RUN Incorrecto"
+
+msgid "DNI"
+msgstr "RUN"
+
+msgid "Tipo de DNI"
+msgstr "Tipo de RUN"
+
+msgid "Situación familiar"
+msgstr "Estado civil"
+
+msgid "Convocatorias de reuniones de padres"
+msgstr "Convocatorias de reuniones de apoderados"
+
+msgid "convocar una reunión de padres"
+msgstr "convocar una reunión de apoderados"
+
+msgid "crear una reunión de padres y madres"
+msgstr "crear una reunión de apoderados"
+
+msgid "Listado de reuniones de padres y madres convocadas"
+msgstr "Listado de reuniones de apoderados convocadas"
+
+msgid "Listado de reuniones de padres y madres finalizadas"
+msgstr "Listado de reuniones de apoderados finalizadas"
+
+msgid "Una vez convoques la reunión se publicará en el calendario y la verán todos los profesores, alumnos, padres y madres convocados. Quieres seguir y convocar la reunión?"
+msgstr "Una vez convoques la reunión se publicará en el calendario y la verán todos los profesores, alumnos, y apoderados convocados. Quieres seguir y convocar la reunión?"
+
+msgid "Clases convocadas"
+msgstr "Cursos convocados"
+
+msgid "Convocar reunión de padres y madres"
+msgstr "Convocar reunión de apoderados"
+
+msgid "Crear una reunión de padres y madres"
+msgstr "Crear una reunión de apoderados"
+
+msgid "Reuniones de padres y madres"
+msgstr "Reuniones de apoderados"
+
+msgid "Listado de contraseñas de los alumnos, padres y madres"
+msgstr "Listado de contraseñas de los alumnos y apoderados"
+
+msgid "Código de población"
+msgstr "Código de comuna"
+
+msgid "Selecciona una población"
+msgstr "Selecciona una comuna"
+
+msgid "Población extranjero"
+msgstr "Comuna extranjero"
+
+msgid "Selección de poblaciones"
+msgstr "Selección de comunas"
+
+msgid "Padres"
+msgstr "Apoderados"
+
+msgid "Retrasos - PRI"
+msgstr "Retrasos - EGB"
+
+msgid "Ausencias - PRI"
+msgstr "Ausencias - EGB"
+
+msgid "Ausencias - ESO"
+msgstr "Ausencias - Educación Media"
+
+msgid "Retrasos - ESO"
+msgstr "Retrasos - Educación Media"
+
+msgid "Cierre de evaluación. (Secundaria - ESO, Bachillerato, Ciclos formativos y No reglados)"
+msgstr "Cierre de evaluación. (Educación Media, Bachillerato, Ciclos formativos y No reglados)"
+
+msgid "Infantil"
+msgstr "Preescolar"
+
+msgid "Acceso a los datos personales. (Infantil)"
+msgstr "Acceso a los datos personales. (Preescolar)"
+
+msgid "Cierre de evaluación. (Primaria - Infantil y Primaria)"
+msgstr "Cierre de evaluación. (Preescolar y EGB)"
+
+msgid "Ver los listados de las evaluaciones de una clase. (Infantil)"
+msgstr "Ver los listados de las evaluaciones de una clase. (Preescolar)"
+
+msgid "ID del cargo Jefe de estudios de Primaria"
+msgstr "ID del cargo Jefe de estudios de EGB"
+
+msgid "Firma jefe Primaria"
+msgstr "Firma jefe EGB"
+
+msgid "Firma jefe ESO"
+msgstr "Firma jefe Educación Media"
+
+msgid "ID del cargo Jefe de estudios de ESO"
+msgstr "ID del cargo Jefe de estudios de Educación Media"
+
+msgid "Firma jefe Infantil"
+msgstr "Firma jefe Preescolar"
+
+msgid "ID del cargo Jefe de estudios de Infantil"
+msgstr "ID del cargo Jefe de estudios de Preescolar"
+
+msgid "Posición datos colegio boletín primaria"
+msgstr "Posición datos colegio boletín EGB"
+
+msgid "Situación de los datos del colegio en los boletines de notas de Infantil y Primaria (encabezado / pie)"
+msgstr "Situación de los datos del colegio en los boletines de notas de Preescolar y EGB (encabezado / pie)"
+
+msgid "Id del usuario presidente de la comisión de evaluación para el Acta de evaluación de final de ciclo PRI"
+msgstr "Id del usuario presidente de la comisión de evaluación para el Acta de evaluación de final de ciclo EGB"
+
+msgid "Separación Jardín Infancia - Infantil"
+msgstr ""
+
+msgid "Ver los listados de las evaluaciones de una clase. (Primaria)"
+msgstr "Ver los listados de las evaluaciones de una clase. (EGB)"
+
+msgid "Ver los listados de las evaluaciones de una clase. (ESO)"
+msgstr "Ver los listados de las evaluaciones de una clase. (Educación Media)"
+
+msgid "Ver / imprimir actas y preactas de evaluaciones. (Infantil)"
+msgstr "Ver / imprimir actas y preactas de evaluaciones. (Preescolar)"
+
+msgid "Ver / imprimir actas y preactas de evaluaciones. (Primaria)"
+msgstr "Ver / imprimir actas y preactas de evaluaciones. (EGB)"
+
+msgid "Ver / imprimir actas y preactas de evaluaciones. (ESO)"
+msgstr "Ver / imprimir actas y preactas de evaluaciones. (Educación Media)"
+
+msgid "Convocar reunión de evaluación. (Infantil)"
+msgstr "Convocar reunión de evaluación. (Preescolar)"
+
+msgid "Convocar reunión de evaluación. (Primaria)"
+msgstr "Convocar reunión de evaluación. (EGB)"
+
+msgid "Convocar reunión de evaluación. (ESO)"
+msgstr "Convocar reunión de evaluación. (Educación Media)"
+
+msgid "Gestión de entrevistas con los padres. (Primaria – Infantil y Primaria)"
+msgstr "Gestión de entrevistas con los padres. (Preescolar y EGB)"
+
+msgid "Gestión de entrevistas con los padres. (Secundaria - ESO, Bachillerato, Ciclos formativos y No reglados)"
+msgstr "Gestión de entrevistas con los padres. (Educación Media, Bachillerato, Ciclos formativos y No reglados)"
+
+msgid "Acceso a los datos personales. (Primaria)"
+msgstr "Acceso a los datos personales. (EGB)"
+
+msgid "Bloqueo manual de las notas. (Infantil)"
+msgstr "Bloqueo manual de las notas. (Preescolar)"
+
+msgid "Bloqueo manual de las notas. (Primaria)"
+msgstr "Bloqueo manual de las notas. (EGB)"
+
+msgid "Bloqueo manual de las notas. (ESO)"
+msgstr "Bloqueo manual de las notas. (Educación Media)"
+
+msgid "Acceso a los datos personales. ESO"
+msgstr "Acceso a los datos personales. (Educación Media)"
+
+msgid "Infantil y Primaria"
+msgstr "Preescolar y EGB"
+
+msgid "Primaria - Infantil y Primaria"
+msgstr "Preescolar y EGB"
+
+msgid "Secundaria - ESO y Bachillerato"
+msgstr "Educación Media y Bachillerato"
+
+msgid "Libros 1º ESO"
+msgstr "Libros 1º Educación Media"
+
+msgid "Libros 2º ESO"
+msgstr "Libros 2º Educación Media"
+
+msgid "acta de evaluación de las pruebas de obtención del título de ESO"
+msgstr "acta de evaluación de las pruebas de obtención del título de Educación Media"
+
+msgid "solicitud y activación del proceso de obtención del título de ESO"
+msgstr "solicitud y activación del proceso de obtención del título de Educación Media"
+
+msgid "pruebas y evaluación de las materias para la obtención de título de ESO"
+msgstr "pruebas y evaluación de las materias para la obtención de título de Educación Media"
+
+msgid "Si está a true, se utiliza la configuración de la etapa a ESO y BTO al boletín final de curso"
+msgstr "Si está a 'true', se utiliza la configuración de la etapa a Educación Media y Bachillerato al boletín final de curso"
+
+msgid "certificado de las materias examinadas en la prueba de obtención del título de ESO"
+msgstr "certificado de las materias examinadas en la prueba de obtención del título de Educación Media"
+
+msgid "Datos de escolarización de la ESO"
+msgstr "Datos de escolarización de Educación Media"
+
+msgid "fecha de entrada a la ESO"
+msgstr "fecha de entrada a Educación Media"
+
+msgid "generación de documentación de obtención del título de ESO"
+msgstr "generación de documentación de obtención del título de Educación Media"
+
+msgid "Solo pueden crearse adaptaciones curriculares en las siguientes etapas: Infantil, Primaria, ESO y Bachillerato."
+msgstr "Solo pueden crearse adaptaciones curriculares en las siguientes etapas: Preescolar, EGB, Educación Media y Bachillerato."
+
+msgid "Hoja resumen de la oferta de materias optativas de la etapa de la ESO"
+msgstr "Hoja resumen de la oferta de materias optativas de la etapa de Educación Media"
+
+msgid "hoja de solicitud de inscripción a las pruebas de obtención del título de ESO"
+msgstr "hoja de solicitud de inscripción a las pruebas de obtención del título de Educación Media"
+
+msgid "a continuación se listan las materias suspendidas y pendientes de la etapa ESO"
+msgstr "a continuación se listan las materias suspendidas y pendientes de la etapa Educación Media"
+
+msgid "Has llegado en el máximo de materias seleccionadas para evaluar la obtención de títolo de ESO"
+msgstr "Has llegado en el máximo de materias seleccionadas para evaluar la obtención de título de Educación Media"
+
+msgid "nota de la prueba de obtención del título de ESO"
+msgstr "nota de la prueba de obtención del título de Educación Media"
+
+msgid "Recursos educativos ESO"
+msgstr "Recursos educativos Educación Media"
+
+msgid "Recursos educativos para la ESO clasificados por áreas"
+msgstr "Recursos educativos para la Educación Media clasificados por áreas"
+
+msgid "Decisión de promoción a ESO"
+msgstr "Decisión de promoción a Educación Media"
+
+msgid "Coordinación de ESO"
+msgstr "Coordinación de Educación Media"
+
+msgid "Resumen de notas de ESO del alumno"
+msgstr "Resumen de notas de Educación Media del alumno"
+
+msgid "Resumen de notas de ESO"
+msgstr "Resumen de notas de Educación Media"
+
+msgid "Prueba / examen en la evaluación final de las materias de ESO"
+msgstr "Prueba / examen en la evaluación final de las materias de Educación Media"
+
+msgid "obtiene el título de ESO"
+msgstr "obtiene el título de Educación Media"
+
+msgid "Fecha de inicio del ESO"
+msgstr "Fecha de inicio de Educación Media"
+
+msgid "Fecha de finalización del ESO"
+msgstr "Fecha de finalización de Educación Media"
+
+msgid "No eres coordinador de bachillerato, del ESO o director pedagógico"
+msgstr "No eres coordinador de bachillerato, de Educación Media o director pedagógico"
+
+msgid "curso de ESO"
+msgstr "curso de Educación Media"
+
+msgid "ESO - AVISO a los PADRES"
+msgstr "Educación Media - AVISO a los PADRES"
