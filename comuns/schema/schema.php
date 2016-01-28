@@ -2,17 +2,18 @@
 error_reporting(E_ALL);
 
 define ( 'DEBUG_PLATAFORM', true );
-define ( 'BASE_DIR', "http://server3/__currantes/pm/manager/" );
+define ( 'BASE_DIR', "http://manager.dev/" );
 
-chdir ( 'D:\clickedu\__currantes\pm\manager' );
+chdir ( '../../../../../www/dev/manager' );
 
 //include 'modules/module.php'; // moduls -
 include 'comuns/config/config.php'; // config - 
 include 'comuns/bd/bd.php'; // bbdd -
 include 'comuns/tools/tools.php'; // tools - 
-include 'comuns/helpers/helpers.php'; // helpers -
+include 'comuns/helpers/helpers.php'; // helpers 
 
 
+/*
 include (BASE_DIR.'/dist/inc/gettext.inc');
 $lang        = "es_ES"; // Idioma
 $text_domain = "clickedu_v3"; // Dominio
@@ -25,13 +26,13 @@ bindtextdomain( $text_domain, BASE_DIR."comuns/lang" ); // La ruta a los archivo
 bind_textdomain_codeset( $text_domain, 'UTF-8'); // codificación
 
 textdomain($text_domain);
+*/
 
 
 
 /*  *******************INI Carregador del mòdul********************** */
 function my_loader_class($clase) {
-    //echo 'DDDD'.$clase;
-    include 'modules/controller/'.$clase.'.module.php';
+    include 'www/inc/'.$clase.'.module.php';
 }
 spl_autoload_register('my_loader_class');
 /*  ******************FI Carregador del mòdul************************ */
@@ -75,22 +76,22 @@ class Schema {
   /**
    * Mostrem un troç HTML
    */
-  private function ElementSchemaHTML( $element ) {
+  private static function ElementSchemaHTML( $element ) {
       @include 'comuns/schema/view/'.$element.'.php';
   }
 
-  public function SetParam( $param_name, $param_value ) {
+  public static function SetParam( $param_name, $param_value ) {
      self::${$param_name} = $param_value;
   }
 
-  public function GetParam( $param_name ) {
+  public static function GetParam( $param_name ) {
     return self::${$param_name};
   }
 
   /**
    * Realitzar una acció concreta
    */
-  private function DoAction( $do ) {
+  private static function DoAction( $do ) {
 
       if ( $do == 'load::bd' && self::$loadbd ) { // Carreguem la class BBDD
 	       self::$MysqlDB = new MysqlDB( BBDD_HOST, BBDD_USERNAME, BBDD_PASSWORD, BBDD_DB );
@@ -145,7 +146,7 @@ class Schema {
   }
 
   /******** start de la pàgina ************* */
-  public function SchemaStart() {
+  public static function SchemaStart() {
 
       self::DoAction('load::tools'); // carreguem les eines de desenvolupament
       self::DoAction('load::helpers'); // carreguem els helpers
@@ -167,7 +168,7 @@ class Schema {
   }
 
   /******** inici de la pàgina ************* */
-  public function SchemaInit() {
+  public static function SchemaInit() {
 
       self::ElementSchemaHTML('header'); // header <HTML> <HEAD>
       self::ElementSchemaHTML('menu');   // <ul><li> menú
@@ -175,7 +176,7 @@ class Schema {
   }
 
   /******** fi de la pàgina ************* */
-  public function SchemaEnd() {
+  public static function SchemaEnd() {
 
       if ( self::$loadmodalpanel ) self::ElementSchemaHTML('modal-panel'); // panel modal de help / altres usos.
       self::ElementSchemaHTML('closing'); // tancament div contenidors
@@ -195,11 +196,11 @@ class Schema {
   /**
   *
   */
-  public function SetFileJS( $url_file ) {
+  public static function SetFileJS( $url_file ) {
       self::$FilesJS[] = $url_file;
   }
 
-  public function ElementSchemaJS() {
+  public static function ElementSchemaJS() {
     $str = '';
 
     self::$ContentJS .= '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>';
@@ -222,7 +223,7 @@ class Schema {
 
   
 
-  public function GetSchemaJS() {
+  public static function GetSchemaJS() {
       return self::$ContentJS;
   }
 
@@ -230,7 +231,7 @@ class Schema {
   /**
    * Selecció de l'idioma - Idioma bàsic, idioma del mòdul i idioma del submòdul
    */
-  public function ElementSchemaLang() {
+  public static function ElementSchemaLang() {
   
      $lang_basic     = 'comuns/lang/basic_'.self::$lang.'.lang.php';
      $lang_module    = 'comuns/lang/modules/'.self::$module.'_'.self::$lang.'.lang.php';
@@ -254,11 +255,11 @@ class Schema {
   /* ********************************************************************** */
   /* ********************************************************************** */
   /* ************************************** funcions de debug ************* */
-  private function _init_debug() {
+  private static function _init_debug() {
       self::$init_time_load_page = self::$Tools -> microtime_float();
   }
 
-  private function _do_debug() {
+  private static function _do_debug() {
       self::$end_time_load_page =  self::$Tools -> microtime_float();
       $time_execution_page      = round( self::$end_time_load_page - self::$init_time_load_page, 5 );
       

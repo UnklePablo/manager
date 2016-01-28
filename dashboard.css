@@ -72,7 +72,7 @@ form.navbar-form > input { font-size: 12px;}
 }
 
 .sidebar { background-color: #363130; }
-.sidebar a { color: #bdb8d7; border-left: 2px solid #363130; }
+.sidebar a { color: #bdb8d7; border-bottom: 2px solid #363130; }
 .sidebar li.active > a { font-weight: bold; }
 .sidebar li.active > a, 
   .sidebar a:hover, 
@@ -80,6 +80,8 @@ form.navbar-form > input { font-size: 12px;}
       background-color: #433d3c !important;
       border-left: 2px solid #f7714d;
     }
+	
+.extra { padding:0.2em 0 0.2em 0; }
 .sidebar li .nameli, .sidebar li .nameli:hover { display: none; }
 .sidebar li .badge { float: right; background-color: #433d3c; }
 
@@ -145,7 +147,20 @@ form.navbar-form > input { font-size: 12px;}
 }
 
 
+/*
+ * Basics 
+ */
+
 .small { font-size: 10px; }
 .big { font-size: 15px; }
+.bold { font-weight: bold; }
 
+a.btn { color: #363130; }
+.btn-action { margin: 0px 5px; }
 
+.margin-5 { margin: 5px; }
+.margin-10 { margin: 10px; }
+.margin-top-5 { margin-top:5px; }
+.margin-top-10 { margin-top:10px; }
+.margin-bottom-5 { margin-bottom:5px; }
+.margin-bottom-10 { margin-bottom:10px; }

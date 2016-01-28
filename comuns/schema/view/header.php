@@ -23,14 +23,29 @@ session_start();
     <title><?php echo Schema::GetParam('module').' - '.Schema::GetParam('title_head'); ?></title>
         <!-- Bootstrap -->
     <link href="<?php echo BASE_DIR; ?>dist/css/bootstrap.css" rel="stylesheet">
-     <link href="<?php echo BASE_DIR; ?>dashboard.css" rel="stylesheet">
-     <style>
+	<link href="<?php echo BASE_DIR; ?>dist/css/modules/<?php echo Schema::GetParam('module'); ?>.css" rel="stylesheet">
+    <link href="<?php echo BASE_DIR; ?>dashboard.css" rel="stylesheet">
+    <style>
       /* **********table ********* */
       table.table thead tr th {
         font-size: 15px;
         text-align: center;
       }
-     </style>
+
+	  .btn.btn-primary { color: white; }
+      /*.btn.btn-primary {
+        background-color: #f7714d;
+		color: white;
+		border: 0;
+		border-radius: 0 !important;
+		opacity: 1;
+		padding: 10px 11px;
+      }
+      .btn.btn-primary:hover {
+        background-color: #f7714d;
+		opacity: 0.85;
+      }*/
+    </style>
   </head>
   
   <body>
